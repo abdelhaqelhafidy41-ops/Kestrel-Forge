@@ -24,4 +24,4 @@ bucket_name = "kestrel-forge-assets"
 [vars]
 APP_URL = "https://kestrelforge.dev"
 GITHUB_CACHE_TTL_MINUTES = "15"
-ADMIN_EMAIL = "admin@kestrelforge.dev"
+ADMIN_EMAIL = "abdeelhap12345@gmail.com"

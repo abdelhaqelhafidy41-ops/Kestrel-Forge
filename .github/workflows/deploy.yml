@@ -35,9 +35,9 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         if: env.CLOUDFLARE_API_TOKEN != '' && env.CLOUDFLARE_ACCOUNT_ID != ''
         run: |
-          bunx wrangler d1 migrations apply kestrel-forge-db --remote
+          bunx wrangler d1 migrations apply digital-store-db --remote
           bunx tsx scripts/sync-d1-from-config.ts
-          bunx wrangler d1 execute kestrel-forge-db --remote --file=data/d1-sync.sql
+          bunx wrangler d1 execute digital-store-db --remote --file=data/d1-sync.sql
 
       - name: Deploy Worker + Static Assets to Cloudflare
         env:

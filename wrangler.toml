@@ -12,8 +12,8 @@ not_found_handling = "single-page-application"
 # Cloudflare D1 SQLite Database
 [[d1_databases]]
 binding = "DB"
-database_name = "kestrel-forge-db"
-database_id = "00000000-0000-0000-0000-000000000000"
+database_name = "digital-store-db"
+database_id = "0786573c-4823-4233-9e9b-c8f12f4d1a70"
 migrations_dir = "migrations"
 
 # Cloudflare R2 Object Storage for product screenshots, icons, and optional binaries

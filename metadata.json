@@ -1,0 +1,6 @@
+{
+  "name": "Kestrel Forge — Digital Products & Software Marketplace",
+  "description": "Official digital products marketplace, indie game hub, Android APK & Windows software center, and web applications portfolio integrated with GitHub Releases.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

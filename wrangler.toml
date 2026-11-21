@@ -1,0 +1,27 @@
+name = "kestrel-forge-marketplace"
+main = "worker/index.ts"
+compatibility_date = "2026-01-15"
+compatibility_flags = ["nodejs_compat"]
+
+# Static SPA frontend built by `npm run build` -> dist/
+[assets]
+directory = "./dist"
+binding = "ASSETS"
+not_found_handling = "single-page-application"
+
+# Cloudflare D1 SQLite Database
+[[d1_databases]]
+binding = "DB"
+database_name = "kestrel-forge-db"
+database_id = "00000000-0000-0000-0000-000000000000"
+migrations_dir = "migrations"
+
+# Cloudflare R2 Object Storage for product screenshots, icons, and optional binaries
+[[r2_buckets]]
+binding = "BUCKET"
+bucket_name = "kestrel-forge-assets"
+
+[vars]
+APP_URL = "https://kestrelforge.dev"
+GITHUB_CACHE_TTL_MINUTES = "15"
+ADMIN_EMAIL = "admin@kestrelforge.dev"

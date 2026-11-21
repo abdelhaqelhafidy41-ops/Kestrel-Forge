@@ -16,19 +16,16 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '22'
-          cache: 'npm'
+        uses: oven-sh/setup-bun@v2
 
       - name: Install dependencies
-        run: npm ci
+        run: bun install
 
       - name: TypeScript typecheck
-        run: npm run lint
+        run: bun run lint
 
       - name: Validate products.config.json
-        run: npx tsx scripts/validate-products.ts
+        run: bunx tsx scripts/validate-products.ts
 
       - name: Build frontend and server bundle
-        run: npm run build
+        run: bun run build

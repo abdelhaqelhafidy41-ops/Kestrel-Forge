@@ -18,18 +18,15 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '22'
-          cache: 'npm'
+        uses: oven-sh/setup-bun@v2
 
       - name: Install dependencies
-        run: npm ci
+        run: bun install
 
       - name: Sync GitHub Releases metadata
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: npx tsx scripts/sync-releases.ts
+        run: bunx tsx scripts/sync-releases.ts
 
       - name: Commit snapshot updates if changed
         run: |

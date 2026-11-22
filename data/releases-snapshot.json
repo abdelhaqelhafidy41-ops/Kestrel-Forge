@@ -11,13 +11,13 @@
           "name": "godot-3.6.3-stable.tar.xz",
           "sizeBytes": 26479192,
           "downloadUrl": "https://github.com/godotengine/godot/releases/download/3.6.3-stable/godot-3.6.3-stable.tar.xz",
-          "downloadCount": 349
+          "downloadCount": 355
         },
         {
           "name": "Godot_v3.6.3-stable_android_editor.apk",
           "sizeBytes": 110128170,
           "downloadUrl": "https://github.com/godotengine/godot/releases/download/3.6.3-stable/Godot_v3.6.3-stable_android_editor.apk",
-          "downloadCount": 8462
+          "downloadCount": 8536
         },
         {
           "name": "Godot_v3.6.3-stable_linux.arm32.zip",
@@ -29,13 +29,13 @@
           "name": "Godot_v3.6.3-stable_linux.arm64.zip",
           "sizeBytes": 27822620,
           "downloadUrl": "https://github.com/godotengine/godot/releases/download/3.6.3-stable/Godot_v3.6.3-stable_linux.arm64.zip",
-          "downloadCount": 670
+          "downloadCount": 673
         },
         {
           "name": "Godot_v3.6.3-stable_linux_headless.64.zip",
           "sizeBytes": 32276678,
           "downloadUrl": "https://github.com/godotengine/godot/releases/download/3.6.3-stable/Godot_v3.6.3-stable_linux_headless.64.zip",
-          "downloadCount": 1108
+          "downloadCount": 1111
         },
         {
           "name": "Godot_v3.6.3-stable_linux_server.64.zip",
@@ -59,19 +59,19 @@
           "name": "Godot_v3.6.3-stable_mono_osx.universal.zip",
           "sizeBytes": 90578118,
           "downloadUrl": "https://github.com/godotengine/godot/releases/download/3.6.3-stable/Godot_v3.6.3-stable_mono_osx.universal.zip",
-          "downloadCount": 9884
+          "downloadCount": 9928
         },
         {
           "name": "Godot_v3.6.3-stable_mono_win32.zip",
           "sizeBytes": 58421996,
           "downloadUrl": "https://github.com/godotengine/godot/releases/download/3.6.3-stable/Godot_v3.6.3-stable_mono_win32.zip",
-          "downloadCount": 203
+          "downloadCount": 204
         },
         {
           "name": "Godot_v3.6.3-stable_mono_win64.zip",
           "sizeBytes": 64368288,
           "downloadUrl": "https://github.com/godotengine/godot/releases/download/3.6.3-stable/Godot_v3.6.3-stable_mono_win64.zip",
-          "downloadCount": 409
+          "downloadCount": 410
         },
         {
           "name": "Godot_v3.6.3-stable_mono_x11_32.zip",
@@ -107,7 +107,7 @@
           "name": "Godot_v3.6.3-stable_win64.exe.zip",
           "sizeBytes": 35756983,
           "downloadUrl": "https://github.com/godotengine/godot/releases/download/3.6.3-stable/Godot_v3.6.3-stable_win64.exe.zip",
-          "downloadCount": 1604
+          "downloadCount": 1611
         },
         {
           "name": "Godot_v3.6.3-stable_x11.32.zip",
@@ -119,7 +119,7 @@
           "name": "Godot_v3.6.3-stable_x11.64.zip",
           "sizeBytes": 34867665,
           "downloadUrl": "https://github.com/godotengine/godot/releases/download/3.6.3-stable/Godot_v3.6.3-stable_x11.64.zip",
-          "downloadCount": 9229
+          "downloadCount": 9289
         }
       ],
       "status": "ok"
